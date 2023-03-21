@@ -23,4 +23,9 @@ Route::prefix("V1")->group(function () {
         '/vessel/info',
         [\App\Http\Controllers\VesselController::class, 'vesselInfo']
     )->name('api.vessel.info');
+
+    Route::get(
+        '/vessel/route',
+        [\App\Http\Controllers\VesselController::class, 'vesselRoute']
+    )->name('api.vessel.route');
 });
