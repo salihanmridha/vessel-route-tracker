@@ -205,23 +205,36 @@ trait Scrapper
         $latest_port_calls = [];
         foreach ($data as $port_call) {
             $port_name = $port_call['dp'] . ', ' . $port_call['c'];
-            $arrival_utc = $port_call['a'];
-            $departure_utc = $port_call['d'];
+            $arrival = $port_call['a'];
+            $departure = $port_call['d'];
 
             // Calculate time in port
-            $arrival = strtotime($arrival_utc);
-            $departure = strtotime($departure_utc);
-            if($arrival === false || $departure === false){
+            if(strtotime($arrival) === false || strtotime($departure) === false){
                 $time_in_port = "-";
             } else {
-                $time_in_port = gmdate('H\h i\m', $departure - $arrival);
+                $arrival = \Carbon\Carbon::createFromFormat('M j, H:i', $arrival);
+                $departure = \Carbon\Carbon::createFromFormat('M j, H:i', $departure);
+                $time_in_port = $arrival->diff($departure);
+
+                $formatString = '';
+                if ($time_in_port->d > 0) {
+                    $formatString .= '%a days, ';
+                }
+                if ($time_in_port->h > 0) {
+                    $formatString .= '%h hours, ';
+                }
+                if ($time_in_port->i > 0) {
+                    $formatString .= '%i minutes';
+                }
+
+                $time_in_port = $time_in_port->format($formatString);
             }
 
             // Add port call to array
             $latest_port_calls[] = [
                 'port_name' => $port_name,
-                'arrival_utc' => $arrival_utc,
-                'departure_utc' => $departure_utc,
+                'arrival_utc' => $arrival,
+                'departure_utc' => $departure,
                 'time_in_port' => $time_in_port,
             ];
         }
