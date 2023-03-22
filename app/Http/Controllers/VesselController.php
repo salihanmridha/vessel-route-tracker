@@ -82,20 +82,21 @@ class VesselController extends Controller
 
         if (is_array($vesselRoute) && array_key_exists("callsign", $vesselRoute)){
             $data = [
-                "departure_port" => $vesselRoute["departureport"],
-                "departure_atd" => $vesselRoute["departureatd"],
-                "callsign" => $vesselRoute["callsign"],
-                "flag" => $vesselRoute["flag"],
-                "length_beam" => $vesselRoute["lengthbeam"],
-                "imo_mmsi" => $vesselRoute["imommsi"],
-                "navigation_status" => $vesselRoute["navigationstatus"],
-                "current_draught" => $vesselRoute["currentdraught"],
-                "course_speed" => $vesselRoute["coursespeed"],
+                "departure_port" => $vesselRoute["departureport"] ?? null,
+                "departure_atd" => $vesselRoute["departureatd"] ?? null,
+                "callsign" => $vesselRoute["callsign"] ?? null,
+                "flag" => $vesselRoute["flag"] ?? null,
+                "length_beam" => $vesselRoute["lengthbeam"] ?? null,
+                "imo_mmsi" => $vesselRoute["imommsi"] ?? null,
+                "navigation_status" => $vesselRoute["navigationstatus"] ?? null,
+                "current_draught" => $vesselRoute["currentdraught"] ?? null,
+                "course_speed" => $vesselRoute["coursespeed"] ?? null,
 //                "predicted_eta" => $vesselRoute["predictedeta"],
 //                "distance_time" => $vesselRoute["distancetime"],
 //                "position_received" => $vesselRoute["positionreceived"],
-                "arrival_port" => $vesselRoute["arrivalport"],
-                "arrival_atd" => $vesselRoute["arrivalatd"],
+                "arrival_port" => $vesselRoute["arrivalport"] ?? null,
+                "arrival_atd" => $vesselRoute["arrivalatd"] ?? null,
+                "latest_port_calls" => $vesselRoute["latest_port_calls"] ?? null,
             ];
 
             return $this->data(
