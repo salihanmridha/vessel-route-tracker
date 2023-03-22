@@ -5,6 +5,7 @@ namespace App\Traits;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Collection;
 use Symfony\Component\HttpFoundation\Response;
+use GuzzleHttp\Client;
 
 trait Scrapper
 {
@@ -108,14 +109,21 @@ trait Scrapper
             $result[$key] = $value;
         }
 
-        $departurePortData = $this->getDeparturePortData($xpath);
-        $arrivalPortData = $this->getArrivalPortData($xpath);
+        try {
+            $departurePortData = $this->getDeparturePortData($xpath);
+            $arrivalPortData = $this->getArrivalPortData($xpath);
+            $latest_port_calls = $this->getPortCalls($doc);
 
-        $result["departureport"] = $departurePortData["port"];
-        $result["departureatd"] = $departurePortData["atd"];
+            $result["departureport"] = $departurePortData["port"];
+            $result["departureatd"] = $departurePortData["atd"];
 
-        $result["arrivalport"] = $arrivalPortData["port"];
-        $result["arrivalatd"] = $arrivalPortData["atd"];
+            $result["arrivalport"] = $arrivalPortData["port"];
+            $result["arrivalatd"] = $arrivalPortData["atd"];
+
+            $result["latest_port_calls"] = $latest_port_calls;
+        } catch (\Exception $e) {
+
+        }
 
         return $result;
     }
@@ -182,8 +190,42 @@ trait Scrapper
         ];
     }
 
-    private function getPortCalls($xpath)
+    private function getPortCalls($doc)
     {
+        $api = "https://www.vesselfinder.com/api/pub/pcext/v4/";
+        $djson = $doc->getElementById('djson');
+        $json_str = $djson->getAttribute('data-json');
+        $json_arr = json_decode(html_entity_decode($json_str), true);
+        $mmsi = $json_arr['mmsi'];
 
+        $client = new Client();
+        $response = $client->request('GET', "$api/$mmsi?d");
+        $data = json_decode($response->getBody(), true);
+
+        $latest_port_calls = [];
+        foreach ($data as $port_call) {
+            $port_name = $port_call['dp'] . ', ' . $port_call['c'];
+            $arrival_utc = $port_call['a'];
+            $departure_utc = $port_call['d'];
+
+            // Calculate time in port
+            $arrival = strtotime($arrival_utc);
+            $departure = strtotime($departure_utc);
+            if($arrival === false || $departure === false){
+                $time_in_port = "-";
+            } else {
+                $time_in_port = gmdate('H\h i\m', $departure - $arrival);
+            }
+
+            // Add port call to array
+            $latest_port_calls[] = [
+                'port_name' => $port_name,
+                'arrival_utc' => $arrival_utc,
+                'departure_utc' => $departure_utc,
+                'time_in_port' => $time_in_port,
+            ];
+        }
+
+        return $latest_port_calls;
     }
 }

@@ -1,28 +1,28 @@
 """
-<!DOCTYPE html><html lang="en"><head>
+<head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0MB1EVE8B7"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-0MB1EVE8B7');</script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>
         var prefix="";var lang="en"</script>
-    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>AQUAMAN, Offshore Tug/Supply Ship - Details and current position - IMO 9270622 - VesselFinder</title><meta name="description" content="Vessel AQUAMAN (IMO: 9270622, MMSI: 577472000) is a Offshore Tug/Supply Ship built in 2003 and currently sailing under the flag of Vanuatu." />
-    <link rel="canonical" href="https://www.vesselfinder.com/vessels/details/9270622" />
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>AQUAMAN, Offshore Tug/Supply Ship - Details and current position - IMO 9270622 - VesselFinder</title><meta name="description" content="Vessel AQUAMAN (IMO: 9270622, MMSI: 577472000) is a Offshore Tug/Supply Ship built in 2003 and currently sailing under the flag of Vanuatu.">
+    <link rel="canonical" href="https://www.vesselfinder.com/vessels/details/9270622">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="apple-itunes-app" content="app-id=608985698"><meta name="theme-color" content="#112d5a"/><link rel="manifest" href="/manifest.json">
-    <link rel="alternate" hreflang="en" href="https://www.vesselfinder.com/vessels/details/9270622" />
-    <link rel="alternate" hreflang="fr" href="https://www.vesselfinder.com/fr/vessels/details/9270622" />
-    <link rel="alternate" hreflang="de" href="https://www.vesselfinder.com/de/vessels/details/9270622" />
-    <link rel="alternate" hreflang="da" href="https://www.vesselfinder.com/da/vessels/details/9270622" />
-    <link rel="alternate" hreflang="nl" href="https://www.vesselfinder.com/nl/vessels/details/9270622" />
-    <link rel="alternate" hreflang="es" href="https://www.vesselfinder.com/es/vessels/details/9270622" />
-    <link rel="alternate" hreflang="pl" href="https://www.vesselfinder.com/pl/vessels/details/9270622" />
-    <link rel="alternate" hreflang="el" href="https://www.vesselfinder.com/el/vessels/details/9270622" />
-    <link rel="alternate" hreflang="bg" href="https://www.vesselfinder.com/bg/vessels/details/9270622" />
-    <link rel="alternate" hreflang="tr" href="https://www.vesselfinder.com/tr/vessels/details/9270622" />
-    <link rel="alternate" hreflang="ru" href="https://www.vesselfinder.com/ru/vessels/details/9270622" />
-    <link rel="alternate" hreflang="it" href="https://www.vesselfinder.com/it/vessels/details/9270622" />
+    <meta name="apple-itunes-app" content="app-id=608985698"><meta name="theme-color" content="#112d5a"><link rel="manifest" href="/manifest.json">
+    <link rel="alternate" hreflang="en" href="https://www.vesselfinder.com/vessels/details/9270622">
+    <link rel="alternate" hreflang="fr" href="https://www.vesselfinder.com/fr/vessels/details/9270622">
+    <link rel="alternate" hreflang="de" href="https://www.vesselfinder.com/de/vessels/details/9270622">
+    <link rel="alternate" hreflang="da" href="https://www.vesselfinder.com/da/vessels/details/9270622">
+    <link rel="alternate" hreflang="nl" href="https://www.vesselfinder.com/nl/vessels/details/9270622">
+    <link rel="alternate" hreflang="es" href="https://www.vesselfinder.com/es/vessels/details/9270622">
+    <link rel="alternate" hreflang="pl" href="https://www.vesselfinder.com/pl/vessels/details/9270622">
+    <link rel="alternate" hreflang="el" href="https://www.vesselfinder.com/el/vessels/details/9270622">
+    <link rel="alternate" hreflang="bg" href="https://www.vesselfinder.com/bg/vessels/details/9270622">
+    <link rel="alternate" hreflang="tr" href="https://www.vesselfinder.com/tr/vessels/details/9270622">
+    <link rel="alternate" hreflang="ru" href="https://www.vesselfinder.com/ru/vessels/details/9270622">
+    <link rel="alternate" hreflang="it" href="https://www.vesselfinder.com/it/vessels/details/9270622">
     <style>
         html{box-sizing: border-box;}*,:before,:after{box-sizing:border-box}:focus{outline:none;}body,html,h1,h2,h3,p,ul,li{margin:0;padding:0}h1,h2{font-size:100%;font-weight:normal;}
         html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;text-size-adjust:100%}aside,section,article{display:block}body{font-family:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;color:#222;font-size:1rem;font-weight:400;line-height:1.5}
@@ -114,12 +114,12 @@
 
         @media screen and (max-width:320px ){
             .navbar-right {width:270px} }
-    </style><link rel="preconnect" href="https://static.vesselfinder.net" /><link rel="dns-prefetch" href="https://static.vesselfinder.net" />
+    </style><link rel="preconnect" href="https://static.vesselfinder.net"><link rel="dns-prefetch" href="https://static.vesselfinder.net">
     <link rel="preconnect" href="https://map.vesselfinder.net">
     <meta name="format-detection" content="telephone=no">
-    <script src="https://static.vesselfinder.net/web/common/lazysizes.min.js" async=""></script>
-    <link rel="stylesheet" media="(min-width: 1024px)" href="https://static.vesselfinder.net/web/1024a.css?4.22d3" />
-    <link rel="preload" href="https://static.vesselfinder.net/web/vde/details.42211.min.js" as="script" />
+    <script src="https://static.vesselfinder.net/web/common/lazysizes.min.js" async></script>
+    <link rel="stylesheet" media="(min-width: 1024px)" href="https://static.vesselfinder.net/web/1024a.css?4.22d3">
+    <link rel="preload" href="https://static.vesselfinder.net/web/vde/details.42211.min.js" as="script">
     <style>hr{margin:0;padding:0}footer,header{display:block}
         a strong{color:currentColor}strong{color:#363636;font-weight:700}
         .centered{display:flex;align-items: center;justify-content: center}
@@ -180,7 +180,7 @@
 
         .breadcrumbs {display: flex;align-items: center;list-style: none;margin: 4px 0 0}
         .breadcrumbs li {font-size: 12px;padding-right: 4px;flex: 0 0 auto}
-        .breadcrumbs li:first-child:before {content: " "} .breadcrumbs li:before {content:"»";color:#2199e8}
+        .breadcrumbs li:first-child:before {content: " "} .breadcrumbs li:before {content:"&#187;";color:#2199e8}
         .breadcrumbs li:last-child {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;flex: 1 0 0}
         .habh {padding-top:11px; justify-content: center}
         .dactions {height: 44px;width: 100%;display:flex;flex-direction:row;align-items:center;justify-content: center;user-select:none}
@@ -271,7 +271,7 @@
     </style>
 </head><body><div class="body-wrapper"><div class="body-inner"><div class="pprem"></div>
         <div class="navbar" role="navigation">
-            <div id="nav-menu-btn" class="mvbtn nvmenubtn" aria-hidden="true"><svg width="24" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 7h24v3H0zM0 14h24v3H0z"/></g></svg></div>
+            <div id="nav-menu-btn" class="mvbtn nvmenubtn" aria-hidden="true"><svg width="24" height="17"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 7h24v3H0zM0 14h24v3H0z" /></g></svg></div>
 
             <div class="navbar-left">
                 <a class="flx logoh" href="/" rel="home" title="VesselFinder" tabindex="-1">
@@ -285,7 +285,7 @@
                 <a class="nma" href="/gallery" tabindex="-1">Photos</a>
                 <a class="nma" href="/ports" tabindex="-1">Ports</a>
                 <a class="nma" href="/news" tabindex="-1">News</a>
-                <div class="nma has-dropdown srva flx" tabindex="-1">Services<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="13" height="24"><path d="M9.929 11.5a.4283.4283 0 01-.128.301l-3 3a.4197.4197 0 01-.301.127.4287.4287 0 01-.302-.126l-3-3a.4321.4321 0 01-.127-.302c0-.234.194-.428.429-.428h6c.234 0 .429.194.429.428z" fill-rule="evenodd" fill="#FFF"/></svg>
+                <div class="nma has-dropdown srva flx" tabindex="-1">Services<svg style="isolation:isolate" width="13" height="24"><path d="M9.929 11.5a.4283.4283 0 01-.128.301l-3 3a.4197.4197 0 01-.301.127.4287.4287 0 01-.302-.126l-3-3a.4321.4321 0 01-.127-.302c0-.234.194-.428.429-.428h6c.234 0 .429.194.429.428z" fill-rule="evenodd" fill="#FFF" /></svg>
                     <div class="navbar-dropdown srv">
                         <div class="flx">
                             <div class="rotbg rotbg1"><div class="rx1">Paid</div></div>
@@ -295,7 +295,7 @@
                                 <a href="/historical-ais-data">Historical AIS Data</a>
                             </div>
                         </div>
-                        <hr class="dbord" />
+                        <hr class="dbord">
                         <div class="flx">
                             <div class="rotbg rotbg2"><div class="rx3">Free</div></div>
                             <div class="srv1 srvd">
@@ -322,13 +322,13 @@
                         </div>
                     </div>
                     <ul class="breadcrumbs is-hidden-mobile" role="menu" itemscope itemtype="http://schema.org/BreadcrumbList">
-                        <li role="menuitem" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/" itemprop="item" rel="home"><span itemprop="name">VesselFinder</span><meta itemprop="position" content="1" /></a></li>
-                        <li role="menuitem" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/vessels" itemprop="item"> <span itemprop="name">Vessels</span><meta itemprop="position" content="2" /></a></li>
+                        <li role="menuitem" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/" itemprop="item" rel="home"><span itemprop="name">VesselFinder</span><meta itemprop="position" content="1"></a></li>
+                        <li role="menuitem" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/vessels" itemprop="item"> <span itemprop="name">Vessels</span><meta itemprop="position" content="2"></a></li>
                         <li role="menuitem" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                             <a href="/vessels?type=0" itemprop="item">
     <span itemprop="name">
-        Miscellaneous    </span><meta itemprop="position" content="3" /></a></li>
-                        <li role="menuitem" class="current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.vesselfinder.com/vessels/details/9270622" itemprop="item"> <span itemprop="name">AQUAMAN</span><meta itemprop="position" content="4" /></a></li>
+        Miscellaneous    </span><meta itemprop="position" content="3"></a></li>
+                        <li role="menuitem" class="current" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://www.vesselfinder.com/vessels/details/9270622" itemprop="item"> <span itemprop="name">AQUAMAN</span><meta itemprop="position" content="4"></a></li>
                     </ul>
                 </div>
 
@@ -340,19 +340,15 @@
                         @media (max-width: 424px) { .vesselfinder-vessels-top-resp {width:100%;height:calc(83.5vw);display:block; margin:0 auto;} }
                     </style>
                     <!-- VesselFinder Vessels Center RESP -->
-                    <ins class="adsbygoogle vesselfinder-vessels-top-resp"
-                         style="display:block"
-                         data-full-width-responsive="true"
-                         data-ad-client="ca-pub-7787898993122907"
-                         data-ad-slot="1417571931"></ins>
+                    <ins class="adsbygoogle vesselfinder-vessels-top-resp" style="display:block" data-full-width-responsive="true" data-ad-client="ca-pub-7787898993122907" data-ad-slot="1417571931"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
                 <section class="ship-section">
                     <p class="text2">
                         The current position of <strong>AQUAMAN</strong> is
-                        at West Africa  reported 5 mins ago  by AIS.
+                        at West Africa  reported 9 mins ago  by AIS.
 
-                        The vessel is en route to <strong>ODUDU</strong>,  sailing at a speed of 4.4 knots      and expected to arrive there on <strong>Mar 22, 01:00</strong>.
+                        The vessel is en route to <strong>ODUDU</strong>,  sailing at a speed of 7.0 knots      and expected to arrive there on <strong>Mar 22, 01:00</strong>.
                         The vessel <strong>AQUAMAN</strong> (IMO: 9270622, MMSI 577472000) is a Offshore Tug/Supply Ship  built in 2003 (20 years old) and
                         currently sailing under the flag of <strong>Vanuatu</strong>.
                     </p>
@@ -360,23 +356,23 @@
                 <section class="ship-section">
                     <h2 class="bar" id="lim">Position &amp; Voyage Data</h2>
                     <div class="row"><div class="col vfix-top npr">
-                            <a href="/ship-photos/240470" class="img-holder s0"><img title="AQUAMAN" src="https://static.vesselfinder.net/ship-photo/9270622-564612000-6a9b29286dc7874efbbd3f36a603d8c1/1?v1" class="main-photo" alt="AQUAMAN photo"/></a>
+                            <a href="/ship-photos/240470" class="img-holder s0"><img title="AQUAMAN" src="https://static.vesselfinder.net/ship-photo/9270622-564612000-6a9b29286dc7874efbbd3f36a603d8c1/1?v1" class="main-photo" alt="AQUAMAN photo"></a>
                             <div class="dactions">
                                 <a href="/?imo=9270622" title="Show on map">
-                                    <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="1.635 21.671 23 18"><g fill="none" stroke="#254881" stroke-width="1.212" stroke-linecap="round" stroke-linejoin="round"><path d="M4.125 38.724s-.031-.38.064-.903"/><path stroke-dasharray="1.9212,1.9212" d="M4.977 36.09c.369-.434.896-.815 1.648-1.045 2.875-.878 6.801 2.414 9.833 1.622 2.721-.711 3.751-2.66 4.139-4.146"/><path d="M20.777 31.575c.066-.545.047-.903.047-.903"/></g><path fill="#254881" d="M24.558 38.79l-3.026-10.646c-.08-.279-.39-.478-.747-.478h-4.269c-.021.404-.109.791-.203 1.223l3.861.004 2.715 9.552H3.305l1.989-9.552 1.847-.004a3.919 3.919 0 01-.234-1.223H4.645c-.375 0-.694.217-.755.512l-2.244 10.78c-.037.177.025.359.171.497s.359.217.584.217H23.87c.423 0 .766-.275.766-.614a.529.529 0 00-.078-.268z"/><path fill="#254881" d="M11.776 28.566c-1.099 0-1.986-.968-1.986-2.149 0-1.188.887-2.15 1.986-2.15 1.094 0 1.981.963 1.981 2.15 0 1.182-.887 2.149-1.981 2.149m0-6.895c-2.431 0-4.397 2.131-4.397 4.759 0 2.488 1.991 5.691 3.321 7.25.496.583 1.076 1.364 1.076 1.364s.62-.785 1.151-1.381c1.33-1.499 3.24-4.503 3.24-7.233 0-2.627-1.967-4.759-4.391-4.759"/></svg>
+                                    <svg class="svg1" width="23" height="18" viewBox="1.635 21.671 23 18"><g fill="none" stroke="#254881" stroke-width="1.212" stroke-linecap="round" stroke-linejoin="round"><path d="M4.125 38.724s-.031-.38.064-.903" /><path stroke-dasharray="1.9212,1.9212" d="M4.977 36.09c.369-.434.896-.815 1.648-1.045 2.875-.878 6.801 2.414 9.833 1.622 2.721-.711 3.751-2.66 4.139-4.146" /><path d="M20.777 31.575c.066-.545.047-.903.047-.903" /></g><path fill="#254881" d="M24.558 38.79l-3.026-10.646c-.08-.279-.39-.478-.747-.478h-4.269c-.021.404-.109.791-.203 1.223l3.861.004 2.715 9.552H3.305l1.989-9.552 1.847-.004a3.919 3.919 0 01-.234-1.223H4.645c-.375 0-.694.217-.755.512l-2.244 10.78c-.037.177.025.359.171.497s.359.217.584.217H23.87c.423 0 .766-.275.766-.614a.529.529 0 00-.078-.268z" /><path fill="#254881" d="M11.776 28.566c-1.099 0-1.986-.968-1.986-2.149 0-1.188.887-2.15 1.986-2.15 1.094 0 1.981.963 1.981 2.15 0 1.182-.887 2.149-1.981 2.149m0-6.895c-2.431 0-4.397 2.131-4.397 4.759 0 2.488 1.991 5.691 3.321 7.25.496.583 1.076 1.364 1.076 1.364s.62-.785 1.151-1.381c1.33-1.499 3.24-4.503 3.24-7.233 0-2.627-1.967-4.759-4.391-4.759" /></svg>
                                     <span>Track on Map</span></a>
                                 <a href="/uploads/ship-photo/9270622" rel="nofollow" title="Upload photo">
-                                    <svg class="svg2" xmlns="http://www.w3.org/2000/svg" width="21" height="16" viewBox="245.5 248 21 16"><g fill="#254881"><path d="M264.832 250.667h-3.374c-1.756-2-2.308-2.667-2.98-2.667h-4.84c-.673 0-1.214.667-2.98 2.667h-.728v-.889h-1.859v.889h-.738c-.962 0-1.832.733-1.832 1.706v9.778c0 .972.87 1.85 1.832 1.85h17.5c.963 0 1.668-.878 1.668-1.85v-9.778c-.001-.973-.706-1.706-1.669-1.706zM256 261.806c-2.576 0-4.676-2.134-4.676-4.75 0-2.617 2.1-4.75 4.676-4.75 2.575 0 4.676 2.133 4.676 4.75 0 2.616-2.101 4.75-4.676 4.75zm6.18-8.417h-.93v-.944h.93v.944z"></path><path d="M256 253.194c-2.1 0-3.801 1.728-3.801 3.861s1.701 3.861 3.801 3.861c2.101 0 3.801-1.729 3.801-3.861 0-2.133-1.7-3.861-3.801-3.861zm0 5.639c-.968 0-1.75-.794-1.75-1.777s.782-1.778 1.75-1.778 1.75.794 1.75 1.778-.782 1.777-1.75 1.777z"></path></g></svg>
+                                    <svg class="svg2" width="21" height="16" viewBox="245.5 248 21 16"><g fill="#254881"><path d="M264.832 250.667h-3.374c-1.756-2-2.308-2.667-2.98-2.667h-4.84c-.673 0-1.214.667-2.98 2.667h-.728v-.889h-1.859v.889h-.738c-.962 0-1.832.733-1.832 1.706v9.778c0 .972.87 1.85 1.832 1.85h17.5c.963 0 1.668-.878 1.668-1.85v-9.778c-.001-.973-.706-1.706-1.669-1.706zM256 261.806c-2.576 0-4.676-2.134-4.676-4.75 0-2.617 2.1-4.75 4.676-4.75 2.575 0 4.676 2.133 4.676 4.75 0 2.616-2.101 4.75-4.676 4.75zm6.18-8.417h-.93v-.944h.93v.944z" /><path d="M256 253.194c-2.1 0-3.801 1.728-3.801 3.861s1.701 3.861 3.801 3.861c2.101 0 3.801-1.729 3.801-3.861 0-2.133-1.7-3.861-3.801-3.861zm0 5.639c-.968 0-1.75-.794-1.75-1.777s.782-1.778 1.75-1.778 1.75.794 1.75 1.778-.782 1.777-1.75 1.777z" /></g></svg>
                                     <span>Add Photo</span></a>
                                 <button id="fd-fav-nl" title="Add to fleet">
-                                    <svg class="svg2" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.827 5.04c.01.07.01.131.01.202 0 .262-.116.504-.395.504a.755.755 0 0 1-.384-.121L8 13.499l-4.317 2.38a.785.785 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.366 5 7.529.413C7.616.222 7.779 0 8 0c.221 0 .385.222.471.413l2.164 4.588 4.827.736c.23.04.538.16.538.463z" fill="#254881" fill-rule="evenodd"/></svg>
+                                    <svg class="svg2" width="16" height="16"><path d="M16 6.2c0 .182-.125.353-.25.484l-3.49 3.57.827 5.04c.01.07.01.131.01.202 0 .262-.116.504-.395.504a.755.755 0 0 1-.384-.121L8 13.499l-4.317 2.38a.785.785 0 0 1-.385.121c-.279 0-.404-.242-.404-.504 0-.07.01-.131.02-.202l.826-5.04-3.5-3.57C.125 6.554 0 6.382 0 6.2c0-.302.298-.423.538-.463L5.366 5 7.529.413C7.616.222 7.779 0 8 0c.221 0 .385.222.471.413l2.164 4.588 4.827.736c.23.04.538.16.538.463z" fill="#254881" fill-rule="evenodd" /></svg>
                                     <span>Add to fleet</span></button>
                             </div>
                         </div>
                         <div class="col vfix-top lpr">
                             <div class="s0">
                                 <div class="flx vcenter">
-                                    <div class="flag-icon _jFl" title="" style="background-image: url(https://static.vesselfinder.net/images/flags/4x3/unknown2.svg);"></div>
+                                    <div class="flag-icon _jFl" title style="background-image: url(https://static.vesselfinder.net/images/flags/4x3/unknown2.svg);"></div>
                                     <div class="vi__r1 vi__sbt">
                                         <div class="_3-Yih">ODUDU</div>
                                         <div class="_value">
@@ -403,9 +399,9 @@
                                             </td>
                                         </tr>
                                         <tr><td class="n3">Position received</td>
-                                            <td class="v3 ttt1" data-title="Mar 22, 2023 05:36 UTC" id="lastrep"><div class="flx vcenter">
-                                                    <span class="">5 mins ago </span>
-                                                    <svg class="info" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M8,0c-4.42,0 -8,3.58 -8,8c0,4.42 3.58,8 8,8c4.42,0 8,-3.58 8,-8c0,-4.42 -3.58,-8 -8,-8Zm1,12l-2,0l0,-5l2,0l0,5Zm0,-6.4l-2,0l0,-1.6l2,0l0,1.6Z" fill="#8a8a8a"/></svg>
+                                            <td class="v3 ttt1" data-title="Mar 22, 2023 06:26 UTC" id="lastrep"><div class="flx vcenter">
+                                                    <span class>9 mins ago </span>
+                                                    <svg class="info" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" role="img"><path d="M8,0c-4.42,0 -8,3.58 -8,8c0,4.42 3.58,8 8,8c4.42,0 8,-3.58 8,-8c0,-4.42 -3.58,-8 -8,-8Zm1,12l-2,0l0,-5l2,0l0,5Zm0,-6.4l-2,0l0,-1.6l2,0l0,1.6Z" fill="#8a8a8a" /></svg>
                                                 </div>
                                             </td>
                                         </tr>
@@ -419,7 +415,7 @@
                                     <div class="flag-icon _jFl" title="Nigeria" style="background-image: url(https://static.vesselfinder.net/images/flags/4x3/ng.svg);"></div>
                                     <div class="vi__r1 vi__stp">
                                         <div class="_3-Yih">Odudu Terminal Anch., Nigeria</div>
-                                        <div class="_value">ATA: Mar 22, 01:34 UTC</div>
+                                        <div class="_value">ATD: Mar 22, 06:21 UTC</div>
                                     </div>
                                 </div>
                             </div>
@@ -429,7 +425,7 @@
                 <section class="ship-section"><div class="row">
 
                         <div class="col vfix-top npr mm">
-                            <h2 class="bar">Map position & Weather</h2>
+                            <h2 class="bar">Map position &amp; Weather</h2>
                             <div style="position: relative">
                                 <div id="map-holder">
                                     <a href="/?imo=9270622"><canvas id="map"></canvas></a>
@@ -455,11 +451,7 @@
                         @media (max-width: 424px) { .vesselfinder-vessels-bottom-resp {width:100%;height:calc(83.5vw);display:block; margin:0 auto;} }
                     </style>
                     <!-- VesselFinder Vessels Center 2 RESP -->
-                    <ins class="adsbygoogle vesselfinder-vessels-bottom-resp"
-                         style="display:block"
-                         data-full-width-responsive="true"
-                         data-ad-client="ca-pub-7787898993122907"
-                         data-ad-slot="4371038331"></ins>
+                    <ins class="adsbygoogle vesselfinder-vessels-bottom-resp" style="display:block" data-full-width-responsive="true" data-ad-client="ca-pub-7787898993122907" data-ad-slot="4371038331"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
 
@@ -472,28 +464,28 @@
                                 <tr><td class="n3">Vessel Name</td><td class="v3">AQUAMAN</td></tr>
                                 <tr><td class="n3">Ship type</td><td class="v3">Offshore Tug/Supply Ship</td></tr>
                                 <tr><td class="n3">Flag</td><td class="v3">Vanuatu</td></tr>
-                                <tr><td class="n3">Homeport</td><td class="v3"><i class='nd ttt3'></i></td></tr>
+                                <tr><td class="n3">Homeport</td><td class="v3"><i class="nd ttt3"></i></td></tr>
                                 <tr><td class="n3">Gross Tonnage</td><td class="v3">2332</td></tr>
                                 <tr><td class="n3">Summer Deadweight (t)</td><td class="v3">2162</td></tr>
                                 <tr><td class="n3">Length Overall (m)</td><td class="v3">69</td></tr>
                                 <tr><td class="n3">Beam (m)</td><td class="v3">16</td></tr>
-                                <tr><td class="n3">Draught (m)</td><td class="v3"><i class='nd ttt3'></i></td></tr>
+                                <tr><td class="n3">Draught (m)</td><td class="v3"><i class="nd ttt3"></i></td></tr>
                                 <tr><td class="n3">Year of Built</td><td class="v3">2003</td></tr>
                                 </tbody></table>
                         </div>
                         <div class="col lpr vfix-top vfix-bottom">
                             <table class="tparams2"><tbody>
-                                <tr><td class="n3">Builder</td><td class="v3"><i class='nd ttt3'></i></td></tr>
-                                <tr><td class="n3">Place of Built</td><td class="v3"><i class='nd ttt3'></i></td></tr>
-                                <tr><td class="n3">Yard</td><td class="v3"><i class='nd ttt3'></i></td></tr>
+                                <tr><td class="n3">Builder</td><td class="v3"><i class="nd ttt3"></i></td></tr>
+                                <tr><td class="n3">Place of Built</td><td class="v3"><i class="nd ttt3"></i></td></tr>
+                                <tr><td class="n3">Yard</td><td class="v3"><i class="nd ttt3"></i></td></tr>
                                 <tr><td class="n3">TEU</td><td class="v3">-</td></tr>
                                 <tr><td class="n3">Crude Oil (bbl)</td><td class="v3">-</td></tr>
                                 <tr><td class="n3">Gas (m3)</td><td class="v3">-</td></tr>
                                 <tr><td class="n3">Grain</td><td class="v3">-</td></tr>
                                 <tr><td class="n3">Bale</td><td class="v3">-</td></tr>
-                                <tr><td class="n3">Classification Society</td><td class="v3"><i class='nd ttt3'></i></td></tr>
-                                <tr><td class="n3">Registered Owner</td><td class="v3"><i class='nd ttt3'></i></td></tr>
-                                <tr><td class="n3">Manager</td><td class="v3"><i class='nd ttt3'></i></td></tr>
+                                <tr><td class="n3">Classification Society</td><td class="v3"><i class="nd ttt3"></i></td></tr>
+                                <tr><td class="n3">Registered Owner</td><td class="v3"><i class="nd ttt3"></i></td></tr>
+                                <tr><td class="n3">Manager</td><td class="v3"><i class="nd ttt3"></i></td></tr>
                                 </tbody></table>
                         </div>
                     </div>
@@ -512,18 +504,14 @@
                         @media (max-width: 424px) { .vesselfinder-vessels-bottom-resp {width:100%;height:calc(83.5vw);display:block; margin:0 auto;} }
                     </style>
                     <!-- VesselFinder Vessels Center 2 RESP -->
-                    <ins class="adsbygoogle vesselfinder-vessels-bottom-resp"
-                         style="display:block"
-                         data-full-width-responsive="true"
-                         data-ad-client="ca-pub-7787898993122907"
-                         data-ad-slot="4371038331"></ins>
+                    <ins class="adsbygoogle vesselfinder-vessels-bottom-resp" style="display:block" data-full-width-responsive="true" data-ad-client="ca-pub-7787898993122907" data-ad-slot="4371038331"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div>
                 <section class="ship-section">
                     <h2 class="bar">Disclaimer</h2><p class="disclaimer_text text1">AQUAMAN current position and history of port calls are received by AIS. Technical specifications, tonnages and management details are derived from VesselFinder database. The data is for informational purposes only and VesselFinder is not responsible for the accuracy and reliability of AQUAMAN data.</p>
                 </section>
-                <span id="avp" data-avp1="Available with PREMIUM plan" data-avp2="See subscription plans &rarr;"></span>
-                <span id="avsp" data-avp1="Available with SATELLITE plan" data-avp2="See subscription plans &rarr;"></span>
+                <span id="avp" data-avp1="Available with PREMIUM plan" data-avp2="See subscription plans →"></span>
+                <span id="avsp" data-avp1="Available with SATELLITE plan" data-avp2="See subscription plans →"></span>
             </div>
             <aside class="on-left"><div class="ad-left0">
                     <style>
@@ -531,28 +519,21 @@
                         @media (min-width: 320px) and (max-width: 374px) { .ad-left-vessels { display:inline-block; width:320px; height:60px;} }
                     </style>
                     <!-- VesselFinder Vessels Left RESP -->
-                    <ins class="adsbygoogle ad-left-vessels"
-                         style="display:block"
-                         data-full-width-responsive="true"
-                         data-ad-client="ca-pub-7787898993122907"
-                         data-ad-slot="8940838731"
-                         data-ad-format="auto"></ins>
+                    <ins class="adsbygoogle ad-left-vessels" style="display:block" data-full-width-responsive="true" data-ad-client="ca-pub-7787898993122907" data-ad-slot="8940838731" data-ad-format="auto"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div></aside>
             <aside class="on-right"><div class="ad-right">
                     <style>.vesselfinder-vessels-right-resp { width: 160px; height: 600px; display:inline-block; }
                         @media (max-width: 1023px) { .vesselfinder-vessels-right-resp { display:none; } }</style>
                     <!-- VesselFinder Vessels Right RESP -->
-                    <ins class="adsbygoogle vesselfinder-vessels-right-resp"
-                         data-ad-client="ca-pub-7787898993122907"
-                         data-ad-slot="2894305132"></ins>
+                    <ins class="adsbygoogle vesselfinder-vessels-right-resp" data-ad-client="ca-pub-7787898993122907" data-ad-slot="2894305132"></ins>
                     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                 </div></aside>
         </main><footer class="footer"><div id="nft">
                 <div class="language-section upperfooter mygrid3 mygridp"><div class="col2 middle">
                         <h2 class="column footer-heading">Select your language</h2>
-                        <div class="langsel column"><a  class="active" href="/vessels/details/9270622"><span class="flag-icon flag-icon-gb" title="EN"></span> English</a><a  href="/fr/vessels/details/9270622"><span class="flag-icon flag-icon-fr" title="FR"></span> Français</a><a  href="/de/vessels/details/9270622"><span class="flag-icon flag-icon-de" title="DE"></span> Deutsch</a><a  href="/da/vessels/details/9270622"><span class="flag-icon flag-icon-dk flag-icon-da" title="DK"></span> Danish</a><a  href="/nl/vessels/details/9270622"><span class="flag-icon flag-icon-nl" title="NL"></span> Nederlands</a><a  href="/es/vessels/details/9270622"><span class="flag-icon flag-icon-es" title="ES"></span> Español</a><a  href="/pl/vessels/details/9270622"><span class="flag-icon flag-icon-pl" title="PL"></span> Polski</a><a  href="/bg/vessels/details/9270622"><span class="flag-icon flag-icon-bg" title="BG"></span> Български</a><a  href="/tr/vessels/details/9270622"><span class="flag-icon flag-icon-tr" title="TR"></span> Türkçe</a><a  href="/ru/vessels/details/9270622"><span class="flag-icon flag-icon-ru" title="RU"></span> Русский</a><a  href="/it/vessels/details/9270622"><span class="flag-icon flag-icon-it" title="IT"></span> Italiano</a><a  href="/el/vessels/details/9270622"><span class="flag-icon flag-icon-gr flag-icon-el" title="GR"></span> Ελληνικά</a></div></div></div><div class="middlefooter links-section"><div class="mygrid3 mygridp"><div class="col2 column columns"><div class="column"><h2 class="footer-heading">Vessels &amp; Ports</h2><div class="cell push-bottom"><a href="/vessels">Vessels Database</a><a href="/gallery">Vessel Photos</a><a href="/ports">Port Database</a></div>
-                                <h2 class="footer-heading">Mobile Apps</h2><div class="cell push-top"><a class="applink" href="https://itunes.apple.com/us/app/vesselfinder-pro/id608985698?mt=8" target="_blank" rel="nofollow noopener"><img width="120" height="40" loading="lazy" src="https://static.vesselfinder.net/images/download-on-the-app-store.svg" alt="app store"></a><a class="applink" href="https://play.google.com/store/apps/details?id=com.astrapaging.vff&amp;hl=en" target="_blank" rel="nofollow noopener"><img width="135" height="40" loading="lazy" src="https://static.vesselfinder.net/images/google-play-badge.svg"  alt="google play"></a></div>
+                        <div class="langsel column"><a class="active" href="/vessels/details/9270622"><span class="flag-icon flag-icon-gb" title="EN"></span> English</a><a href="/fr/vessels/details/9270622"><span class="flag-icon flag-icon-fr" title="FR"></span> Français</a><a href="/de/vessels/details/9270622"><span class="flag-icon flag-icon-de" title="DE"></span> Deutsch</a><a href="/da/vessels/details/9270622"><span class="flag-icon flag-icon-dk flag-icon-da" title="DK"></span> Danish</a><a href="/nl/vessels/details/9270622"><span class="flag-icon flag-icon-nl" title="NL"></span> Nederlands</a><a href="/es/vessels/details/9270622"><span class="flag-icon flag-icon-es" title="ES"></span> Español</a><a href="/pl/vessels/details/9270622"><span class="flag-icon flag-icon-pl" title="PL"></span> Polski</a><a href="/bg/vessels/details/9270622"><span class="flag-icon flag-icon-bg" title="BG"></span> Български</a><a href="/tr/vessels/details/9270622"><span class="flag-icon flag-icon-tr" title="TR"></span> Türkçe</a><a href="/ru/vessels/details/9270622"><span class="flag-icon flag-icon-ru" title="RU"></span> Русский</a><a href="/it/vessels/details/9270622"><span class="flag-icon flag-icon-it" title="IT"></span> Italiano</a><a href="/el/vessels/details/9270622"><span class="flag-icon flag-icon-gr flag-icon-el" title="GR"></span> Ελληνικά</a></div></div></div><div class="middlefooter links-section"><div class="mygrid3 mygridp"><div class="col2 column columns"><div class="column"><h2 class="footer-heading">Vessels &amp; Ports</h2><div class="cell push-bottom"><a href="/vessels">Vessels Database</a><a href="/gallery">Vessel Photos</a><a href="/ports">Port Database</a></div>
+                                <h2 class="footer-heading">Mobile Apps</h2><div class="cell push-top"><a class="applink" href="https://itunes.apple.com/us/app/vesselfinder-pro/id608985698?mt=8" target="_blank" rel="nofollow noopener"><img width="120" height="40" loading="lazy" src="https://static.vesselfinder.net/images/download-on-the-app-store.svg" alt="app store"></a><a class="applink" href="https://play.google.com/store/apps/details?id=com.astrapaging.vff&amp;hl=en" target="_blank" rel="nofollow noopener"><img width="135" height="40" loading="lazy" src="https://static.vesselfinder.net/images/google-play-badge.svg" alt="google play"></a></div>
                             </div><div class="column"><h2 class="footer-heading">Services &amp; Products</h2><div class="cell"><a href="/news">Maritime News</a><a href="/get-premium">VesselFinder Premium</a><a href="/satellite-ais">VesselFinder Satellite</a><a href="/realtime-ais-data">Real-Time AIS API</a><a href="/historical-ais-data">Historical AIS Data</a><a href="https://stations.vesselfinder.com/become-partner" target="_blank" rel="nofollow noopener">AIS Partnership</a>
                                 </div></div><div class="column"><h2 class="footer-heading">About VesselFinder</h2><div class="cell last-cell"><a href="/contact">Contact us</a><a href="/terms">Terms of Use</a><a href="/privacy">Privacy Policy</a>
                                 </div><div class="socials-cell"><a href="https://www.facebook.com/vesselfinder" target="_blank" rel="nofollow noopener" class="social-media-link"><img src="https://static.vesselfinder.net/images/facebook.svg" width="32" height="32" loading="lazy" alt="facebook"></a>
@@ -563,7 +544,7 @@
         </footer>
     </div><aside id="sml"></aside></div><div id="vfmdlg"></div>
 <div id="app-dialog-holder"></div>
-<div id="djson" data-json='{"v":true,"sar":false,"mmsi":577472000,"ship_lat":3.98263,"ship_lon":7.80115,"ship_cog":294.4,"ship_sog":4.4,"ship_type":52,"no_pc":"No port calls detected"}'></div>
+<div id="djson" data-json="{&quot;v&quot;:true,&quot;sar&quot;:false,&quot;mmsi&quot;:577472000,&quot;ship_lat&quot;:3.99001,&quot;ship_lon&quot;:7.76656,&quot;ship_cog&quot;:300.1,&quot;ship_sog&quot;:7.0,&quot;ship_type&quot;:52,&quot;no_pc&quot;:&quot;No port calls detected&quot;}"></div>
 <script>var nsb=false;var nsbcount=6;var nsbid=0;var MMSI=577472000;var inF=false; var flL=false;</script>
 <script src="https://static.vesselfinder.net/web/vde/details.42211.min.js"></script>
 <script src="https://static.vesselfinder.net/web/vesseldetails-modal.min.js?4.22d3" async></script><script src="https://static.vesselfinder.net/web/ww.min.js?4.22d3" async></script><script>
@@ -574,5 +555,5 @@
         m_news: "News", m_apps: "Apps", m_services: "Services", m_follow: "Follow us",}
 </script>
 <script src="https://static.vesselfinder.net/web/gsf4/index.c64f8868.js" async></script>
-</body></html>
-""" // app/Traits/Scrapper.php:195
+</body>
+""" // app/Traits/Scrapper.php:198
