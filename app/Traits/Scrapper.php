@@ -181,4 +181,9 @@ trait Scrapper
             "atd" => $content_value,
         ];
     }
+
+    private function getPortCalls($xpath)
+    {
+
+    }
 }
