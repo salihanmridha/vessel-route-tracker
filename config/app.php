@@ -58,6 +58,8 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
+    'scraping_bee_api' => env('SCRAPING_BEE', null),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone

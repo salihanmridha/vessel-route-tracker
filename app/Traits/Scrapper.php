@@ -76,6 +76,64 @@ trait Scrapper
         return $result;
     }
 
+    public function getVesselPosition($url)
+    {
+        $html = $this->scrapingBee($url);
+
+        $doc = new \DOMDocument();
+        libxml_use_internal_errors(true);
+        $doc->loadHTML($html);
+        libxml_use_internal_errors(false);
+
+        $xpath = new \DOMXPath($doc);
+
+        $data = [];
+
+        // Get position received data
+        $posReceivedNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[1]/b');
+
+        if($posReceivedNode->length == 0){
+            return response()->json([
+                "status" => Response::HTTP_NOT_FOUND,
+                "success" => false,
+                "message" => "The IMO Code that you entered does not exist in our database. Please try again.",
+                "data" => [],
+            ]);
+        }
+
+        $data['position_received'] = $posReceivedNode->item(0)->nodeValue;
+
+        // Get vessel local time data
+        $vesselLocalTimeNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[2]/b');
+        $data['vessel_local_time'] = $vesselLocalTimeNode->item(0)->nodeValue;
+
+        // Get area data
+        $areaNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[3]/b');
+        $data['area'] = $areaNode->item(0)->nodeValue;
+
+        // Get current port data
+        $currentPortNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[4]/b');
+        $data['current_port'] = $currentPortNode->item(0)->nodeValue;
+
+        // Get latitude/longitude data
+        $latLongNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[5]/b/a');
+        $data['latitude_longitude'] = $latLongNode->item(0)->nodeValue;
+
+        // Get navigational status data
+        $navigationalStatusNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[6]/b');
+        $data['navigational_status'] = $navigationalStatusNode->item(0)->nodeValue;
+
+        // Get speed/course data
+        $speedCourseNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[7]/b');
+        $data['speed_course'] = $speedCourseNode->item(0)->nodeValue;
+
+        // Get AIS source data
+        $aisSourceNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[8]/b');
+        $data['ais_source'] = $aisSourceNode->item(0)->nodeValue;
+
+        return $data;
+    }
+
     /**
      * @param $url
      * @return array|false|JsonResponse|string
@@ -96,8 +154,6 @@ trait Scrapper
         $xpath = new \DOMXPath($doc);
         $table = $xpath->query('//table[@class="aparams"]')->item(0);
         $rows = $table->getElementsByTagName('tr');
-
-
 
         $result = array();
 
@@ -240,5 +296,48 @@ trait Scrapper
         }
 
         return $latest_port_calls;
+    }
+
+    private function scrapingBee(string $url)
+    {
+        $url = urlencode($url);
+
+        $jsScenario = [
+            "instructions" => [
+                ["wait" => 3500]
+                //["wait_for" => "#vesselDetails_latestPositionSection"]
+            ],
+        ];
+
+        $jsScenario = json_encode($jsScenario, true);
+        $jsScenario = urlencode($jsScenario);
+
+        $response = $this->curlRequestToScrapingBee($url, $jsScenario);
+
+        return $response;
+
+
+    }
+
+    private function curlRequestToScrapingBee(string $url, string $jsScenario)
+    {
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_URL, self::$scrapingBeeUrl . "?api_key=" . config('app.scraping_bee_api')
+            . "&url=$url&js_scenario=$jsScenario");
+
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+        $response = curl_exec($ch);
+
+        if (!$response) {
+            abort(Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
+
+        curl_close($ch);
+
+        return $response;
     }
 }
