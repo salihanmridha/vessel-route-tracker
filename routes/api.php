@@ -28,4 +28,9 @@ Route::prefix("V1")->group(function () {
         '/vessel/route',
         [\App\Http\Controllers\VesselController::class, 'vesselRoute']
     )->name('api.vessel.route');
+
+    Route::get(
+        '/vessel/position',
+        [\App\Http\Controllers\VesselController::class, 'vesselPosition']
+    )->name('api.vessel.position');
 });

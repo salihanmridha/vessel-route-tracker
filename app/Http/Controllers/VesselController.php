@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\VesselInfoRequest;
 use App\Http\Resources\VesselInfoResource;
+use App\Http\Resources\VesselPositionResource;
 use App\Http\Resources\VesselRouteResource;
 use App\Models\VesselInfo;
 use App\Traits\ResponseJson;
@@ -16,6 +17,7 @@ class VesselController extends Controller
     use ResponseJson, Scrapper;
 
     const VESSELS = 'https://www.vesselfinder.com/vessels/details/';
+    const VESSELPOSITION = 'https://www.marinetraffic.com/en/ais/details/ships/';
 
     public function vesselInfo(VesselInfoRequest $request)
     {
@@ -91,9 +93,6 @@ class VesselController extends Controller
                 "navigation_status" => $vesselRoute["navigationstatus"] ?? null,
                 "current_draught" => $vesselRoute["currentdraught"] ?? null,
                 "course_speed" => $vesselRoute["coursespeed"] ?? null,
-//                "predicted_eta" => $vesselRoute["predictedeta"],
-//                "distance_time" => $vesselRoute["distancetime"],
-//                "position_received" => $vesselRoute["positionreceived"],
                 "arrival_port" => $vesselRoute["arrivalport"] ?? null,
                 "arrival_atd" => $vesselRoute["arrivalatd"] ?? null,
                 "latest_port_calls" => $vesselRoute["latest_port_calls"] ?? null,
@@ -114,5 +113,47 @@ class VesselController extends Controller
         ]);
 
 
+    }
+
+    public function vesselPosition(VesselInfoRequest $request)
+    {
+        $url = self::VESSELPOSITION . $request->imoCode;
+
+        $vesselPosition = $this->getVesselPosition($url);
+
+        if($vesselPosition instanceof JsonResponse || $vesselPosition == null){
+            return response()->json([
+                "status" => Response::HTTP_NOT_FOUND,
+                "success" => false,
+                "message" => "The IMO Code that you entered does not exist in our database. Please try again.",
+                "data" => [],
+            ]);
+        }
+
+        if (is_array($vesselPosition) && array_key_exists("latitude_longitude", $vesselPosition)){
+            $data = [
+                "position_received" => $vesselPosition["position_received"] ?? null,
+                "vessel_local_time" => $vesselPosition["vessel_local_time"] ?? null,
+                "area" => $vesselPosition["area"] ?? null,
+                "current_port" => $vesselPosition["current_port"] ?? null,
+                "latitude_longitude" => $vesselPosition["latitude_longitude"] ?? null,
+                "navigational_status" => $vesselPosition["navigational_status"] ?? null,
+                "speed_course" => $vesselPosition["speed_course"] ?? null,
+                "ais_source" => $vesselPosition["ais_source"] ?? null,
+            ];
+
+            return $this->data(
+                Response::HTTP_OK,
+                true,
+                "IMO Code $request->imoCode is valid",
+                new VesselPositionResource($data));
+        }
+
+        response()->json([
+            "status" => Response::HTTP_NOT_FOUND,
+            "success" => false,
+            "message" => "The IMO code that you entered is invalid. Please try again.",
+            "data" => [],
+        ]);
     }
 }
