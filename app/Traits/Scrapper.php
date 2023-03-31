@@ -80,6 +80,15 @@ trait Scrapper
     {
         $html = $this->scrapingBee($url);
 
+        if ($html == false) {
+            return response()->json([
+                "status" => Response::HTTP_NOT_FOUND,
+                "success" => false,
+                "message" => "The IMO Code that you entered does not exist in our database. Please try again.",
+                "data" => [],
+            ]);
+        }
+
         $doc = new \DOMDocument();
         libxml_use_internal_errors(true);
         $doc->loadHTML($html);
@@ -91,16 +100,6 @@ trait Scrapper
 
         // Get position received data
         $posReceivedNode = $xpath->query('//div[contains(@class, "MuiGrid-root")]/p[1]/b');
-
-        if($posReceivedNode->length == 0){
-            return response()->json([
-                "status" => Response::HTTP_NOT_FOUND,
-                "success" => false,
-                "message" => "The IMO Code that you entered does not exist in our database. Please try again.",
-                "data" => [],
-            ]);
-        }
-
         $data['position_received'] = $posReceivedNode->item(0)->nodeValue;
 
         // Get vessel local time data
@@ -304,7 +303,7 @@ trait Scrapper
 
         $jsScenario = [
             "instructions" => [
-                ["wait" => 3500]
+                ["wait" => 2000]
                 //["wait_for" => "#vesselDetails_latestPositionSection"]
             ],
         ];
@@ -328,12 +327,14 @@ trait Scrapper
 
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 
+        curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
         $response = curl_exec($ch);
 
         if (!$response) {
-            abort(Response::HTTP_INTERNAL_SERVER_ERROR);
+            return false;
         }
 
         curl_close($ch);
