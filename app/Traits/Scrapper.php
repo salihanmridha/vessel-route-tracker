@@ -133,6 +133,44 @@ trait Scrapper
         return $data;
     }
 
+    public function getVesselPositionByMmsi($url)
+    {
+        $html = $this->phpScrapper($url);
+
+        if($html instanceof JsonResponse || $html == null){
+            return $html;
+        }
+
+        $doc = new \DOMDocument();
+        libxml_use_internal_errors(true);
+        $doc->loadHTML($html);
+        libxml_use_internal_errors(false);
+
+        $xpath = new \DOMXPath($doc);
+
+        $destination = $xpath->query('//li[@class="list__item"][1]/span')[0]->nodeValue;
+        $reported_eta = $xpath->query('//li[@class="list__item"][2]/span')[0]->nodeValue;
+        $speed = $xpath->query('//li[@class="list__item"][3]/span')[0]->nodeValue;
+        $heading = $xpath->query('//li[@class="list__item"][4]/span')[0]->nodeValue;
+        $draught = $xpath->query('//li[@class="list__item"][5]/span')[0]->nodeValue;
+        $position_received = $xpath->query('//li[@class="list__item"][6]/span')[0]->nodeValue;
+        $latitude_longitude = $xpath->query('//li[@class="list__item"][7]/span')[0]->nodeValue;
+        $navigational_status = $xpath->query('//li[@class="list__item"][8]/span')[0]->nodeValue;
+
+        $data = [
+            "destination" => $destination,
+            "reported_eta" => $reported_eta,
+            "speed" => $speed,
+            "heading" => $heading,
+            "draught" => preg_replace('/\s+/', ' ', $draught),
+            "position_received" => $position_received,
+            "latitude_longitude" => preg_replace('/\s+/', ' ', $latitude_longitude),
+            "navigational_status" => $navigational_status,
+        ];
+
+        return $data;
+    }
+
     /**
      * @param $url
      * @return array|false|JsonResponse|string

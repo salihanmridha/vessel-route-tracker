@@ -33,4 +33,9 @@ Route::prefix("V1")->group(function () {
         '/vessel/position',
         [\App\Http\Controllers\VesselController::class, 'vesselPosition']
     )->name('api.vessel.position');
+
+    Route::get(
+        '/vessel/mmsi-position',
+        [\App\Http\Controllers\VesselController::class, 'vesselPositionByMmsi']
+    )->name('api.vessel.position.mmsi');
 });

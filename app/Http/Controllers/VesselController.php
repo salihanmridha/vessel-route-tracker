@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\VesselInfoRequest;
+use App\Http\Requests\VesselMmsiPositionRequest;
 use App\Http\Resources\VesselInfoResource;
 use App\Http\Resources\VesselPositionResource;
 use App\Http\Resources\VesselRouteResource;
@@ -18,6 +19,8 @@ class VesselController extends Controller
 
     const VESSELS = 'https://www.vesselfinder.com/vessels/details/';
     const VESSELPOSITION = 'https://www.marinetraffic.com/en/ais/details/ships/';
+
+    const MAGICPORTVESSELPOSITION = 'https://magicport.ai/vessels/';
 
     public function vesselInfo(VesselInfoRequest $request)
     {
@@ -153,6 +156,48 @@ class VesselController extends Controller
             "status" => Response::HTTP_NOT_FOUND,
             "success" => false,
             "message" => "The IMO code that you entered is invalid. Please try again.",
+            "data" => [],
+        ]);
+    }
+
+    public function vesselPositionByMmsi(VesselMmsiPositionRequest $request)
+    {
+        $url = self::MAGICPORTVESSELPOSITION . $request->mmsiCode;
+
+        $vesselPosition = $this->getVesselPositionByMmsi($url);
+
+        if($vesselPosition instanceof JsonResponse){
+            return response()->json([
+                "status" => Response::HTTP_NOT_FOUND,
+                "success" => false,
+                "message" => "The MMSI Code that you entered does not exist in our database. Please try again.",
+                "data" => [],
+            ]);
+        }
+
+        if (is_array($vesselPosition) && array_key_exists("latitude_longitude", $vesselPosition)){
+            $data = [
+                "destination" => $vesselPosition["destination"] ?? null,
+                "reported_eta" => $vesselPosition["reported_eta"] ?? null,
+                "speed" => $vesselPosition["speed"] ?? null,
+                "heading" => $vesselPosition["heading"] ?? null,
+                "draught" => $vesselPosition["draught"] ?? null,
+                "position_received" => $vesselPosition["position_received"] ?? null,
+                "latitude_longitude" => $vesselPosition["latitude_longitude"] ?? null,
+                "navigational_status" => $vesselPosition["navigational_status"] ?? null,
+            ];
+
+            return $this->data(
+                Response::HTTP_OK,
+                true,
+                "MMSI Code $request->mmsiCode is valid",
+                new VesselPositionResource($data));
+        }
+
+        response()->json([
+            "status" => Response::HTTP_NOT_FOUND,
+            "success" => false,
+            "message" => "The MMSI code that you entered is invalid. Please try again.",
             "data" => [],
         ]);
     }

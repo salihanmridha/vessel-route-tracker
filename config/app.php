@@ -58,7 +58,7 @@ return [
 
     'asset_url' => env('ASSET_URL'),
 
-    'scraping_bee_api' => env('SCRAPING_BEE', null),
+    'scraping_bee_api' => env('SCRAPING_BEE', "5WMYG67RGGVPZ14GQVLJFFVT7FUU8JVMXI1ATP3IPW6NGTYY4LQW9BNMMPIQPKRKNQY26WVOG7RDYA8O"),
 
     /*
     |--------------------------------------------------------------------------
